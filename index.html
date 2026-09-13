@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101923">
+  <meta name="description" content="A selection of stylized low-poly Blender models, scenes, and an animated effect for Roblox-style projects.">
+  <title>Minifoxi — 3D Portfolio</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23101923'/%3E%3Cpath d='M10 45V20l12 13 10-14 10 14 12-13v25H10Z' fill='%23f7ad67'/%3E%3C/svg%3E">
+  <style>
+    :root{color-scheme:dark;--ink:#101923;--panel:#182532;--edge:#304254;--text:#f5f3ed;--muted:#bac5cc;--accent:#f7ad67;--accent2:#8bd3cf}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--ink);color:var(--text);font:16px/1.55 system-ui,-apple-system,Segoe UI,sans-serif}
+    a{color:inherit}
+    .wrap{width:min(1180px,calc(100% - 40px));margin:auto}
+    header{border-bottom:1px solid var(--edge)}
+    .topbar{min-height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{font-size:1.08rem;font-weight:800;letter-spacing:.04em;text-decoration:none}
+    .brand span{color:var(--accent)}
+    nav{display:flex;gap:24px}
+    nav a{font-size:.9rem;text-decoration:none;color:var(--muted)}
+    nav a:hover,nav a:focus-visible{color:var(--text)}
+    .hero{display:grid;grid-template-columns:1fr 1.13fr;gap:52px;align-items:center;padding:72px 0 82px}
+    .eyebrow{color:var(--accent2);text-transform:uppercase;letter-spacing:.15em;font-weight:750;font-size:.8rem;margin:0 0 16px}
+    h1{font-size:clamp(2.6rem,6vw,5.2rem);line-height:1.03;letter-spacing:-.055em;margin:0 0 22px}
+    h1 em{font-style:normal;color:var(--accent)}
+    .intro{color:var(--muted);font-size:1.1rem;max-width:35rem;margin:0 0 30px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap}
+    .button{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:700}
+    .button.primary{background:var(--accent);color:var(--ink)}
+    .button.secondary{border:1px solid var(--edge);color:var(--text)}
+    .button:hover,.button:focus-visible{filter:brightness(1.1)}
+    .hero-image{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px;border:1px solid var(--edge);box-shadow:0 24px 65px #030b15a8}
+    section{padding:0 0 80px}
+    .section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:26px}
+    h2{font-size:clamp(1.65rem,3vw,2.5rem);line-height:1.15;margin:0;letter-spacing:-.035em}
+    .section-head p{max-width:34rem;color:var(--muted);margin:0}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+    .card{border:1px solid var(--edge);border-radius:14px;overflow:hidden;background:var(--panel)}
+    .card img,.card video{display:block;width:100%;aspect-ratio:16/10;object-fit:cover;background:#0d1520}
+    .card-body{padding:21px 23px 24px}
+    .type{display:block;color:var(--accent2);font-size:.78rem;text-transform:uppercase;letter-spacing:.12em;font-weight:750;margin-bottom:6px}
+    h3{font-size:1.28rem;margin:0 0 7px}
+    .card p{margin:0;color:var(--muted)}
+    .about{border-top:1px solid var(--edge);padding-top:64px}
+    .about-inner{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+    .about p{color:var(--muted);margin:0}
+    footer{border-top:1px solid var(--edge);padding:24px 0 34px;color:var(--muted);font-size:.88rem}
+    footer .wrap{display:flex;justify-content:space-between;gap:20px}
+    @media(max-width:850px){.hero{grid-template-columns:1fr;gap:28px;padding:54px 0}.hero-image{max-height:450px}.section-head,.about-inner{display:block}.section-head p{margin-top:8px}}
+    @media(max-width:620px){.wrap{width:min(100% - 28px,1180px)}.topbar{min-height:66px}nav{gap:14px}.grid{grid-template-columns:1fr}.card-body{padding:18px}section{padding-bottom:62px}footer .wrap{display:block}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap topbar"><a class="brand" href="#top">MINI<span>FOXI</span></a><nav aria-label="Main navigation"><a href="#work">Work</a><a href="#about">About</a><a href="https://create.roblox.com/talent/creators/3777126877" target="_blank" rel="noopener noreferrer">Roblox profile</a></nav></div></header>
+  <main id="top">
+    <div class="wrap hero">
+      <div>
+        <p class="eyebrow">Blender • Low-poly 3D</p>
+        <h1>Stylized assets for <em>game worlds.</em></h1>
+        <p class="intro">A selection of Blender portfolio studies: props, weapons, small environments, and an animated energy effect.</p>
+        <div class="actions"><a class="button primary" href="#work">View projects</a><a class="button secondary" href="https://create.roblox.com/talent/creators/3777126877" target="_blank" rel="noopener noreferrer">Roblox Talent profile</a></div>
+      </div>
+      <img class="hero-image" src="05_Low_Poly_Abenteurer_Set.png" alt="Low-poly adventurer props including a tent, backpack, lantern, campfire, barrel, and crystal">
+    </div>
+    <section id="work" class="wrap" aria-labelledby="work-heading">
+      <div class="section-head"><h2 id="work-heading">Selected work</h2><p>Modeling and scene studies created in Blender, shown here as rendered previews.</p></div>
+      <div class="grid">
+        <article class="card"><img loading="lazy" src="05_Low_Poly_Abenteurer_Set.png" alt="Six stylized adventurer props on individual display stands"><div class="card-body"><span class="type">Props</span><h3>Adventurer set</h3><p>Tent, backpack, lantern, campfire, supply barrel, and crystal ore in a consistent low-poly style.</p></div></article>
+        <article class="card"><img loading="lazy" src="04_Low_Poly_Fantasy_Waffen.png" alt="Low-poly fantasy sword, axe, spear, shield, hammer, and dagger"><div class="card-body"><span class="type">Weapons</span><h3>Fantasy weapon set</h3><p>A matching collection of six stylized melee weapons and equipment pieces.</p></div></article>
+        <article class="card"><img loading="lazy" src="01_abandoned_street.png" alt="Low-poly street environment with buildings, road, lighting, and props"><div class="card-body"><span class="type">Environment</span><h3>Street scene</h3><p>A small modular streetscape with two buildings, road sections, lights, crates, and gameplay props.</p></div></article>
+        <article class="card"><img loading="lazy" src="02_ufo_zone.png" alt="Low-poly science-fiction scene with a UFO, landing pad, rocks, and structures"><div class="card-body"><span class="type">Environment</span><h3>UFO zone</h3><p>A compact science-fiction play area with landing pad, UFO, small structures, and rocks.</p></div></article>
+        <article class="card"><img loading="lazy" src="03_lowpoly_items.png" alt="Low-poly pickaxe, treasure chest, and potion bottle"><div class="card-body"><span class="type">Items</span><h3>Game item trio</h3><p>Pickaxe, loot chest, and potion bottle with a shared painted texture atlas.</p></div></article>
+        <article class="card"><video controls preload="none" poster="06_Animierte_Energie_Aura.png" aria-label="Animated energy aura preview"><source src="06_Animierte_Energie_Aura.mp4" type="video/mp4">Your browser does not support this video.</video><div class="card-body"><span class="type">Animation</span><h3>Energy aura</h3><p>A short looping study of a stylized animated aura effect.</p></div></article>
+      </div>
+    </section>
+    <section id="about" class="about" aria-labelledby="about-heading"><div class="wrap about-inner"><h2 id="about-heading">About the work</h2><p>These are portfolio studies for stylized game art. I use Blender for modeling, materials, texturing, animation, and export. For project inquiries, reach me through my Roblox Talent profile.</p></div></section>
+  </main>
+  <footer><div class="wrap"><span>Minifoxi · 3D portfolio</span><span>Blender portfolio studies</span></div></footer>
+</body>
+</html>
+
